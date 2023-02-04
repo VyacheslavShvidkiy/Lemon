@@ -52,6 +52,9 @@ header {
     margin: 0 auto;
 }
 /* NAVIGATION */
+.nav {
+    padding: 0 10px;
+}
 .nav_list {
     display: flex;
     justify-content: space-between;
