@@ -19,3 +19,17 @@
         display: block;
     }
 }
+@media (max-width:768px) {
+    .nav_list {
+       opacity: 0;
+    }
+    .menu_burger {
+        display: block;
+    }
+    .nav_list.active {
+        opacity: 1;
+        flex-direction: column;
+        z-index: 9999;
+        padding-top: 100px;
+    }
+}
