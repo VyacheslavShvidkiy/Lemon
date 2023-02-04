@@ -1,0 +1,21 @@
+@media (max-width:1200px) {
+    .header_contacts-list {
+        display: none;
+    }
+    .header_contacts-list.active {
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        background: rgb(255, 255, 255,1);
+        text-align: center;
+        z-index: 999;
+    }
+    .header_contacts-list.active .header_contacts-item {
+        margin-top: 80px;
+    }
+    .contact_burger {
+        display: block;
+    }
+}
