@@ -18,6 +18,12 @@
     .contact_burger {
         display: block;
     }
+    .news_wrapper {
+        justify-content: center;
+     }
+     .news_item {
+        margin: 5px;
+     }
 }
 @media (max-width:768px) {
     .nav_list {
