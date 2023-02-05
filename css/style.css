@@ -392,13 +392,15 @@ nav {
     background: linear-gradient(185deg, #000000 6.11%, rgba(0, 0, 0, 0.08) 77.74%);
  }
  .customer_wrapper {
-    padding: 108px 0 145px;
+    padding: 108px 10px 145px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
  }
  .customers_item {
     position: relative;
+    min-width: 195px;
  }
  .customers_number {
     font-weight: 700;

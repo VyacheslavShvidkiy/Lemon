@@ -32,9 +32,13 @@
         z-index: 9999;
         padding-top: 100px;
     }
+    .first_screen-title h1 {
+        font-size: 48px;
+    }
     .mission {
         grid-template-columns: 1fr;
-        background: url(../img/mission.jpg);
+        background: url(../img/mission.jpg) no-repeat;
+        background-size: cover;
     }
     .mission_block2 {
         display: none;
@@ -45,11 +49,18 @@
     }
     .stories {
         grid-template-columns: 1fr;
-        background: url(../img/stories.jpg);
+        background: url(../img/stories.jpg) no-repeat;
+        background-size: cover;
     }
     .stories_block2 {
         display: none;
     }
+    .customer_wrapper {
+        justify-content: center;
+    }
+    .customers_item {
+        margin: 10px;
+     }
 }
 @media (max-width:440px) {
     .header_logo {
