@@ -378,4 +378,45 @@ nav {
 .clear:hover {
     color: #FEE600;
     background: #fff;
-}    
+}   
+ /*CUSTOMERS  */
+ .customers {
+    width: 100%;
+    background: url(../img/customersBg.jpg);
+    background-size: cover;
+    background-position: center;
+ }
+ .customers_blure {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(185deg, #000000 6.11%, rgba(0, 0, 0, 0.08) 77.74%);
+ }
+ .customer_wrapper {
+    padding: 108px 0 145px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+ .customers_item {
+    position: relative;
+ }
+ .customers_number {
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 133px;
+    color: #FEE600;
+    font-family: 'Playfair Display', serif;
+    position: absolute;
+    top: 30px;
+    left: 75px;
+ }
+ .customers_text {
+    text-transform: uppercase;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    color: #FFFFFF;
+ }
