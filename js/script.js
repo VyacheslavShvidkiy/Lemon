@@ -1,3 +1,4 @@
+
 let contactBurger = document.querySelector(".contact_burger");
 let contactList = document.querySelector(".header_contacts-list");
 contactBurger.addEventListener('click', () => {
@@ -10,3 +11,4 @@ menuBurger.addEventListener('click', () => {
     menuBurger.classList.toggle('active');
     menuList.classList.toggle('active');
 })
+
