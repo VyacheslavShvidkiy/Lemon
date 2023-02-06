@@ -25,6 +25,18 @@
         margin: 5px;
      }
 }
+@media (max-width:960px) {
+    .testimonials_wrapper {
+        grid-template-columns: 1fr;
+        padding: 10px 10px 80px;
+    }
+    .testimonials_map {
+        display: none;
+    }
+    .subscribe_form input {
+        width: 100%;
+    }
+}
 @media (max-width:768px) {
     .nav_list {
        display: none;
@@ -61,11 +73,35 @@
     .stories_block2 {
         display: none;
     }
+    .section_title {
+        margin: 10px 0 40px;
+    }
     .customer_wrapper {
         justify-content: center;
     }
     .customers_item {
         margin: 10px;
+     }
+     .questions{
+        grid-template-columns: 1fr;
+        min-height: auto;
+     }
+     .questions_block2 {
+        display: none;
+     }
+     .question_info {
+        max-width: 100%;
+     }
+     .subscribe_form {
+        grid-template-columns: 1fr;
+        padding-left: 10px;
+     }
+     .subscribe_form input {
+        margin-top: 20px;
+        width: 90%;
+     }
+     .subscribe_form #form_btn {
+        margin-top: 20px;
      }
 }
 @media (max-width:440px) {
@@ -73,6 +109,9 @@
         width: 150px;
     }
     .header_logo img {
+        width: 100%;
+    }
+    .slider_item img {
         width: 100%;
     }
 }

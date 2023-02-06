@@ -245,7 +245,7 @@ nav {
     text-align: center;
     color: #495F1D;
     font-family: 'Playfair Display', serif;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 .about_suptitle {
     margin: 50px auto;
@@ -593,7 +593,7 @@ nav {
     margin-left: 5px;
   }
   
-  .active:after {
+  .accordion.active:after {
     content: "\203A";
     transform: rotate(90deg);
   }
@@ -610,4 +610,50 @@ nav {
   .panel p {
     font-size: 13px;
     line-height: 24px;
+  }
+  /* SUBSCRIBE */
+  .subscribe {
+    background: #FAF9F5;
+  }
+  .subscribe_text {
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .subscribe_form {
+    margin-top: 70px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0 20px;
+  }
+  .subscribe_form input {
+    margin-right: 30px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #BDBDBD;
+    outline: none;
+    border: 1px solid #E7E7E7;
+  }
+  .subscribe_form #form_btn {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    background: #FEE600;
+    border: none;
+    padding: 10px 100px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  .privacy_text {
+    text-align: center;
+    color: #909090;
+    margin-bottom: 60px;
   }
