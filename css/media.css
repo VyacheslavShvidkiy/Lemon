@@ -103,6 +103,15 @@
      .subscribe_form #form_btn {
         margin-top: 20px;
      }
+     .footer_info {
+        width: 100%;
+     }
+     .footer_nav  {
+        width: 50%;
+     }
+     .footer_contact {
+        width: 50%;
+     }
 }
 @media (max-width:440px) {
     .header_logo {
@@ -114,4 +123,10 @@
     .slider_item img {
         width: 100%;
     }
+    .footer_nav  {
+        width: 100%;
+     }
+     .footer_contact {
+        width: 100%;
+     }
 }
