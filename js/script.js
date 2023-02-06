@@ -1,9 +1,9 @@
 // Contact burger
 let contactBurger = document.querySelector(".contact_burger");
-let contactList = document.querySelector(".header_contacts-list");
+let navList = document.querySelector(".nav_list");
 contactBurger.addEventListener('click', () => {
     contactBurger.classList.toggle('active');
-    contactList.classList.toggle('active');
+    navList.classList.toggle('active');
 })
 
 // Accordion

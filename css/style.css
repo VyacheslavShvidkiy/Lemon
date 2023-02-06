@@ -22,6 +22,15 @@ a {
     height: 85px;
     width: 100%;
     border-bottom: 1px solid #E5E5E5 ;
+    padding: 0 10px;
+}
+.header_bottom{
+    min-height: 80px;
+    width: 100%;
+}
+.header_bottom .header_logo {
+    display: none;
+    float: none;
 }
 .header_logo {
     height: 100%;
@@ -54,7 +63,7 @@ a {
     position: relative;
     display: none;
     position: absolute;
-    top: 20px;
+    top: 104px;
     right: 50px;
     z-index: 9999;
 }
@@ -142,9 +151,6 @@ nav {
 }
 .nav_item .owners:hover {
     background: #FEE600;
-}
-.small_nav {
-    display: none;
 }
 /* FIRST SCREEN */
 .first_screen {

@@ -1,11 +1,7 @@
 @media (max-width:1200px) {
-    .header_contacts-list {
-        display: none;
+    .contacts_text {
+        font-size: 12px;
     }
-    .contacts_text  {
-        font-size: 20px;
-    }
-    
     .header_contacts-list.active {
         display: block;
         position: absolute;
@@ -16,11 +12,12 @@
         text-align: center;
         z-index: 999;
     }
+    .header_bottom .header_logo {
+        display: none;
+        float: none;
+    }
     .header_contacts-list.active .header_contacts-item {
         margin-top: 80px;
-    }
-    .contact_burger {
-        display: block;
     }
     .news_wrapper {
         justify-content: center;
@@ -30,6 +27,10 @@
      }
 }
 @media (max-width:960px) {
+    .header_bottom .header_logo {
+        display: none;
+        float: none;
+    }
     .testimonials_wrapper {
         grid-template-columns: 1fr;
         padding: 10px 10px 80px;
@@ -40,32 +41,32 @@
     .subscribe_form input {
         width: 100%;
     }
-}
-@media (max-width:768px) {
-    .nav_list {
-       display: none;
+    .contact_burger {
+        display: block;
     }
-    .nav_list.active {
+    .contacts_text.contacts_location  {
+        display: none;
+    }
+    .nav_list {
+        display: none;
+     }
+     .nav_list.active {
         display: flex;
         flex-direction: column;
         z-index: 9999;
         padding-top: 100px;
     }
+}
+@media (max-width:768px) {
     .header_contacts-list.active .header_contacts-item {
         margin-top: 25px;
     }
-    .contacts_text  {
-        font-size: 20px;
+    .header_logo {
+        margin-right: 30px;
     }
-    .small_nav {
-        display: block;
-        margin-top: 70px;
-    }
-    .small_nav_item {
-        margin: 20px 0;
-    }
-    .small_link {
-        font-size: 20px;
+    .header_bottom .header_logo {
+        display: none;
+        float: none;
     }
     .first_screen-title h1 {
         font-size: 48px;
@@ -129,6 +130,15 @@
      .footer_contact {
         width: 50%;
      }
+}
+@media (max-width:560px) {
+    .header_top .header_logo {
+        display: none;
+    }
+    .header_bottom .header_logo {
+        display: block;
+        float: none;
+    }
 }
 @media (max-width:440px) {
     .header_logo {
