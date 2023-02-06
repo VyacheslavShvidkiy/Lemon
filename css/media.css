@@ -2,6 +2,10 @@
     .header_contacts-list {
         display: none;
     }
+    .contacts_text  {
+        font-size: 20px;
+    }
+    
     .header_contacts-list.active {
         display: block;
         position: absolute;
@@ -41,14 +45,27 @@
     .nav_list {
        display: none;
     }
-    .menu_burger {
-        display: block;
-    }
     .nav_list.active {
         display: flex;
         flex-direction: column;
         z-index: 9999;
         padding-top: 100px;
+    }
+    .header_contacts-list.active .header_contacts-item {
+        margin-top: 25px;
+    }
+    .contacts_text  {
+        font-size: 20px;
+    }
+    .small_nav {
+        display: block;
+        margin-top: 70px;
+    }
+    .small_nav_item {
+        margin: 20px 0;
+    }
+    .small_link {
+        font-size: 20px;
     }
     .first_screen-title h1 {
         font-size: 48px;

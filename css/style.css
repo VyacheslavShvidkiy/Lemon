@@ -17,7 +17,8 @@ a {
     text-decoration: none;
 }
 /* HEADER */
-header {
+
+.header_top {
     height: 85px;
     width: 100%;
     border-bottom: 1px solid #E5E5E5 ;
@@ -142,22 +143,8 @@ nav {
 .nav_item .owners:hover {
     background: #FEE600;
 }
-/* Menu burger */
-.menu_burger {
-    width: 48px;
-    height: 48px;
-    position: absolute;
-    top: 30px;
-    left: 50%;
-    transform: translate(-50%,0);
+.small_nav {
     display: none;
-}
-.menu_burger span {
-    display: block;
-    width: 100%;
-    font-weight: 700;
-    font-size: 24px;
-    color: #4F4F4F;
 }
 /* FIRST SCREEN */
 .first_screen {
