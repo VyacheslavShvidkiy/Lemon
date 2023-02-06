@@ -501,6 +501,7 @@ nav {
     left: -50px;
     z-index: -1;
  }
+ /* SLIDER */
  .testimonials_slider {
     display: flex;
     position: relative;
@@ -546,3 +547,67 @@ nav {
  .dot.active {
     background: #FCE505;
  }
+ /* QUESTIONS */
+ .questions {
+    width: 100vw;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: 50% 1fr;
+    background: #FFFFFF;
+    min-height: 750px; 
+ }
+ .questions_block {
+    width: 100%;
+ }
+ .question_info {
+    max-width: 550px;
+    margin: 0 auto;
+    padding: 0 10px;
+ }
+ .questions_block2 {
+    background: url(../img/questions.jpg);
+    background-size: cover;
+    width: 100%;
+    height:100%;
+ }
+ /* Accordion */
+ .accordion {
+    background-color: #FAF9F5;
+    color: #333333;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: all 0.4s linear;
+    font-size: 15px;
+    line-height: 24px;
+  }
+  .accordion:after {
+    content: '\203A';
+    font-size: 25px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  
+  .active:after {
+    content: "\203A";
+    transform: rotate(90deg);
+  }
+  .active, .accordion:hover {
+    background-color: #e0ddd2;
+  }
+  .panel {
+    padding: 20px 18px;
+    background-color: #e0ddd2;
+    display: none;
+    overflow: hidden;
+    margin-bottom: 10px;
+  }
+  .panel p {
+    font-size: 13px;
+    line-height: 24px;
+  }
