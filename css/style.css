@@ -511,7 +511,7 @@ nav {
 .slide.activer {
     display: flex;
 }
- .slider_item {
+ .slider_item, .slider_item2 {
     text-align: center;
     padding: 30px;
     background: #fff;
